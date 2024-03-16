@@ -3,17 +3,18 @@ import styles from "./Navbar.module.css"
 import logo from "../../assest/logo.png"
 import Search from "../search/search";
 import Button from "../button/button";
+
 export default function Navbar()
 {
     return(
 
-       <div className={styles.navbar}>
+       <nav className={styles.navbar}>
           <div className={styles.logo}>
             <img src={logo} alt="logo" />
           </div>
           <Search/>
           <Button>Give feedback</Button>
-       </div> 
+       </nav> 
     )
 }
 
