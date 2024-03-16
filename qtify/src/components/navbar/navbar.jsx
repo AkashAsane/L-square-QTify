@@ -13,7 +13,7 @@ export default function Navbar()
             <img src={logo} alt="logo" />
           </div>
           <Search/>
-          <Button>Give feedback</Button>
+          <Button>Give Feedback</Button>
        </nav> 
     )
 }
