@@ -1,7 +1,7 @@
  import React from "react"
 import Navbar from "./components/navbar/navbar";
 import { StyledEngineProvider } from "@mui/material";
-
+import Hero from "./components/hero/hero";
 
 function App()
 {
@@ -11,6 +11,7 @@ function App()
 
     <StyledEngineProvider injectFirst>
     <Navbar/>
+    <Hero/>
     </StyledEngineProvider>
   
     

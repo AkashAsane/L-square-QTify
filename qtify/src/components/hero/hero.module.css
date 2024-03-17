@@ -1,0 +1,32 @@
+.heroSection{
+    display: flex;
+    align-items: center;
+    height: 270px;
+    justify-content: center;
+    /* background-color: var(--color-black); */
+}
+
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 212px;
+    width: 790px;
+    color: white;
+    margin-right: -80px;
+    font-weight: 700;
+
+}
+
+.heroContent h1{
+    font-size: 32px;
+    height: 50px;
+}
+
+.heroimg{
+   width: 212px;
+   height: 212px;
+   margin-right: 170px;
+   
+}
