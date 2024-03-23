@@ -46,6 +46,8 @@ function Filters({filters,selectedFilterIndex,setSelectedFilterIndex}){
                 {
                     style:{
                         backgroundColor:"var(--color-primary)",
+                        height:"4px",
+                        borderRadius:"2px"
 
                     },
                 }}

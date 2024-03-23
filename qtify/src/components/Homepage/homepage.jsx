@@ -18,11 +18,11 @@ export default function Homepage(){
           </div>
           <div className={styles.box}>
           <div className={styles.songs}>
-          <Section 
-          title="Songs"
-          data={songs}
-          type="song"
-          filterSoucre={FetchFilters}
+            <Section 
+            title="Songs"
+            data={songs}
+            type="song"
+            filterSoucre={FetchFilters}
           /> 
           </div>
           </div>
