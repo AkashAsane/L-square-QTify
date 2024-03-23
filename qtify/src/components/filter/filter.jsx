@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 import React from "react";
 import { FetchFilters } from "../../Api/api";
 import { Box, Tab, Tabs, Typography } from "@mui/material";
-
+import styles from './filter.module.css'
 function Tabbox(props)
 {
     const{children,value,index,...other}=props;
@@ -51,10 +51,8 @@ function Filters({filters,selectedFilterIndex,setSelectedFilterIndex}){
                 }}
                 >
                   {filters.map((ele,idx)=>(
-                       <Tab className={StyleSheet.tab} label={ele.label} {...allyProps(idx)}
-                       sx={{
-                        color:" var(--color-white)", 
-                    }}/>
+                       <Tab className={styles.tab} label={ele.label} {...allyProps(idx)}
+                      />
                   ))}
                 </Tabs>
              

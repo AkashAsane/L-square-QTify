@@ -32,7 +32,11 @@
     margin-top: 6px;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--color-white);
+    font-family: 'Poppins';
+    font-size: 15px;
 }
+
 
 .pill{
     font-size: 12px;
